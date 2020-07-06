@@ -6,3 +6,8 @@ sudo yum install -y jdk-8u141-linux-x64.rpm
 
 # Verify JDK installation
 java -version
+
+# set java home
+vi ~/.bashrc
+export JAVA_HOME=/usr/java/jdk1.8.0_141/
+source ~/.bashrc
